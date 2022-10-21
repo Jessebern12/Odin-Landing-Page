@@ -13,7 +13,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #a1c3ff;
+    background-color: white;
 }
 
 img{
@@ -124,17 +124,16 @@ display: flex;
 }
 
 .landing-page-two {
-    background-color: black;
+    background-color: lightgrey;
     min-height: 300px;
     display: flex;
-    color: #fff;
+    color: black;
     font-size: x-large;
     font-weight: bold;
 }
 
 .final-section {
     display: flex;
-    background-color: #fff;
     font-size: 30px;
     font-weight: bold;
     height: 300px;
@@ -162,6 +161,7 @@ display: flex;
    margin-left: 80%;
    height: 30px;
    width: 100px;
+   border-radius: 1px;
 }
 
 
@@ -174,6 +174,7 @@ footer {
     display: flex;
     justify-content: center;
     min-height: 60px;
+    background-color: lightgrey;
 }
 
 @media(max-width: 768px) {
