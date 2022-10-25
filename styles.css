@@ -108,6 +108,7 @@ justify-content: space-between;
 }
 
 .card {
+    display: flex;
     flex: 1;
     background-color: #0a51cc;
     color: #fff;
@@ -116,11 +117,23 @@ justify-content: space-between;
     padding: 15px 20px;
     border-style: solid;
     border-color: #333;
+    flex-direction: column;
+    column-gap: 0px;
 }
 
 .card-text {
 display: flex;
+margin-bottom: 0px;
 
+
+}
+
+.recipe-box {
+    background: url("https://images.pexels.com/photos/8844888/pexels-photo-8844888.jpeg?auto=compress&cs=tinysrgb&w=1600") ;
+    background-size: 100%;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    
 }
 
 .landing-page-two {
